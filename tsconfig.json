@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                          // Output JavaScript version
+    "module": "commonjs",                      // Module system (for Node.js)
+    "outDir": "./dist",                        // Directory for compiled files
+    "rootDir": "./email-automation-tool/src",                        // Root directory for source files
+    "strict": true,                            // Enable strict type checking
+    "esModuleInterop": true,                   // Enable interop with CommonJS modules
+    "skipLibCheck": true,                      // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true,  // Ensure consistent casing in file imports
+    "moduleResolution": "node",                // Use Node.js module resolution
+    "resolveJsonModule": true                  // Allow importing .json files as modules
+  },
+  "include": [
+    "src/**/*.ts"  // Corrected pattern to match all TypeScript files in the src directory
+  ],
+  "exclude": [
+    "node_modules"  // Exclude node_modules
+  ]
+}
